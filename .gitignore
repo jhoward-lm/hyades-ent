@@ -1,0 +1,38 @@
+# Ignore everything
+*
+
+# Whitelist patterns anchored to project root
+!/.commitlint.yaml
+!/.editorconfig
+!/.gitattributes
+!/.github/scripts/*.sh
+!/.github/workflows/*.yml
+!/.golangci.yml
+!/.goreleaser.yml
+!/.markdownlint.yml
+!/.markdownlintignore
+!/.pre-commit-config.yaml
+!/.taskfiles/*.yml
+!/.vscode/adr.code-snippets
+!/.vscode/extensions.json
+!/.vscode/go.code-snippets
+!/.vscode/header.code-snippets
+!/.vscode/launch.json
+!/.vscode/settings.json
+!/.vscode/tasks.json
+!/.yamllint
+!/src/main/assembly/assembly.xml
+!/src/main/java/**/*.java
+
+# Whitelist patterns found anywhere in project
+!.gitignore
+!*.go
+!**/testdata/**
+!Dockerfile
+!go.mod
+!go.sum
+!LICENSE
+!Makefile
+!README.md
+
+!*/
